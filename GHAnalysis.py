@@ -36,7 +36,8 @@ def get_cmd():
         print('Input command error')
 def find_data():
     result = 0
-    
+    #每一行数据分别存储在了对应的data[]列表中
+    #查找用户 
     for i in range(0,len(data)):
         data_str = str(data[i])
         if judger ==  1:
